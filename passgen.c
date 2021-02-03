@@ -4,6 +4,9 @@
 
 #include <stdio.h>
 #include <fcntl.h>
+#include <string.h>
+#include <unistd.h>
+#include <stdlib.h>
 
 char *table[] = {"0123456789",
                  "0123456789abcdef",
